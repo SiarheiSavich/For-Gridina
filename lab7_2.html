@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Анкета</title>
+    <link rel="stylesheet" href="my.css">
+  </head>
+  <body>
+  <form action="">
+    <table border="1"cellpadding="5">
+      <caption align="left">
+        <b>Анкета гостя "Бюро знакомств"</b>
+      </caption>
+      <tr>
+        <td>Имя<em id="zvezd">*</em></td>
+        <td><input type="text" name="Imia" required></td>
+      </tr>
+      <tr>
+        <td>E-mail<em id="zvezd">*</em></td>
+        <td><input type="email" name="E-mail" placeholder="Example@email.com" required></td>
+      </tr>
+      <tr>
+        <td>Пароль <em id="zvezd">*</em></td>
+        <td><input type="password" name="pass" required></td>
+      </tr>
+      <tr>
+        <td>Пол<em id="zvezd">*</em></td>
+        <td>
+          <input type="radio" name="gender" id="g1" value="1" required>
+          <lable for="g1">Мужчина</lable>
+          <input type="radio" name="gender" id="g2" value="2">
+          <lable for="g2">Женщина</lable>
+        </td>
+      </tr>
+      <tr>
+        <td>Год рождения</td>
+        <td>
+          <select name="year" size="1">
+            <option value="1984"selected>1984</option>
+            <option value="1985">1985</option>
+            <option value="1986">1986</option>
+            <option value="1987">1987</option>
+            <option value="1988">1988</option>
+            <option value="1989">1989</option>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <td>Знание языков</td>
+        <td>
+          <input type="checkbox" name="languadg" value="Inglish" checked>Английский<br>
+          <input type="checkbox" name="languadg" value="Rushen">Русский<br>
+          <input type="checkbox" name="languadg" value="Doich">Немецкий<br>
+          <input type="checkbox" name="languadg" value="Spain">Испанский<br>
+        </td>
+      </tr>
+      <tr>
+        <td>Интересы</td>
+        <td>
+          <input type="checkbox" name="interes" value="Flirt" checked>Флирт<br>
+          <input type="checkbox" name="interes" value="Lietrate">Литература<br>
+          <input type="checkbox" name="interes" value="Muzik">Музыка<br>
+          <input type="checkbox" name="interes" value="Drowin">Живопись<br>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <textarea name="description" cols="40" rows="10" placeholder="Коротко о себе..."></textarea>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <input type="submit" value="Отправить">
+          <button type="reset">Сбросить</button> <br>
+          <em id="zvezd">* - заполнять обязательно!</em>
+        </td>
+      </tr>
+    </table>
+  </form>
+  </body>
+</html>

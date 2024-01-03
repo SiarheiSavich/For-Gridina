@@ -1,0 +1,99 @@
+body{
+  background: #cccccc;
+}
+.headup
+{
+  text-align: center;
+  padding-right: 280px;
+  color: white;
+  background: darkblue;
+  position: fixed;
+  top: 5px;
+  left: 280px;
+  right: 5px;
+  height: 85px;
+}
+h1{
+  font-size: 35px;
+  color: white;
+  padding-left: 200px;
+}
+h2 {
+  color: darkslateblue;
+  font-size: 30px;
+  padding-left: 20px;
+}
+img {
+  width: 270px;
+  height: 360px;
+  position: fixed;
+  left: 5px;
+  top: 5px;
+}
+nav.myleft {
+  position: fixed;
+  top: 370px;
+  left: 5px;
+  width: 230px;
+  height: available;
+  bottom: 100px;
+  background: #6699CC;
+  padding: 20px;
+}
+aside.myright {
+  position: fixed;
+  top: 95px;
+  right: 5px;
+  width: 230px;
+  height: available;
+  bottom: 100px;
+  background: #6699CC;
+  padding: 20px;
+}
+footer.mybottom {
+  text-align: center;
+  position: absolute;
+  right: 5px;
+  left: 5px;
+  width: available;
+  height: 90px;
+  bottom: 5px;
+  background: ghostwhite;
+}
+main.mymain {
+  padding: 50px;
+  position: absolute;
+  top: 95px;
+  right: 280px;
+  left: 280px;
+  width: available;
+  height: available;
+  bottom: 100px;
+  background: white;
+}
+ul.spec li {
+  margin-left: 20px;
+  font-size: 25px;
+  color: black;
+   }
+table.exp td {
+  font-size: 25px;
+  height: 40px;
+}
+h3 {
+  font-size: 30px;
+}
+p.nav {
+  font-size: 20px;
+}
+h2.futer {
+  font-size: 30px;
+  color: darkblue;
+}
+em.ssilka {
+  padding-left: 30px;
+}
+ul.myaside li {
+  font-size: 25px;
+  padding-top: 30px;
+}

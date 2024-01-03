@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Лаба4 ч2</title>
+  <link rel="stylesheet" href="my.css">
+  <script type="text/javascript" src="js/jquery.js"></script>
+  <script type="text/javascript" src="js/jquery.cross-slide.js"></script>
+  <script type="text/javascript">
+    $(function() {
+      $('#test1').crossSlide({
+        sleep: 2, //in sec
+        fade: 0.5 //in sec
+      }, [
+        { src: 'img/girl1.jpg'},
+        { src: 'img/girl2.jpg'},
+        { src: 'img/girl3.jpg'},
+        { src: 'img/girl4.jpg'},
+      ]);
+    });
+  </script>
+  <style type="text/css">
+    #test1 {
+      margin: 1em auto;
+      border: 2px solid #6699CC;
+      width: 720px;
+      height: 1080px;
+    }
+  </style>
+</head>
+<body>
+<h3>
+  <em>
+    <font color="blue">
+      <p align="right"> <a href="../Lab2-3/lab2-3.html">На главную</a> </p>
+    </font>
+    <br>
+  </em>
+</h3>
+<hr>
+<h1>
+  Бюро знакомств
+</h1>
+<hr>
+<h3>
+  <em>
+    Знакомства. Общение. Общие Интересы  <br>
+  </em>
+  <u>Здесь всегда рады новым гостям!</u>
+</h3>
+<h2>Цель сайта</h2>
+<p style="margin-left: 100px">
+  <font color="blue">Помочь людям найти друга по интересам.</font>  <br>
+  <u>Создать дружественные взаимоотношения среди людей</u>
+</p>
+</h3>
+<h2>Разработчик сайта</h2>
+<p>
+  <font color="green">Слушатель группы ЗИС-23 <b>Савич С.Н.</b></font>
+</p>
+<h2>Целевая аудитория сайта</h2>
+<p>
+  <font color="Blue"><i>Люди всего мира, знающие русский язык и готовые к знакомствам и общению</i></font>
+</p>
+<h4>
+  Число зарегестрированных пользователей - <i>1.855.256</i>
+</h4>
+<div align="center" id="test1">
+  Если изображения не видно, обновите страницу
+</div>
+<hr>
+<p style="margin-left: 0px"> &reg; <b>2023, г.Гомель, проспект Октября 48а, к.36-1</b></p>
+</body>
+</html>
