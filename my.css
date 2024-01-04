@@ -35,7 +35,6 @@ nav.myleft {
   top: 370px;
   left: 5px;
   width: 230px;
-  height: available;
   bottom: 100px;
   background: #6699CC;
   padding: 20px;
@@ -45,7 +44,6 @@ aside.myright {
   top: 95px;
   right: 5px;
   width: 230px;
-  height: available;
   bottom: 100px;
   background: #6699CC;
   padding: 20px;
@@ -55,7 +53,6 @@ footer.mybottom {
   position: fixed;
   right: 5px;
   left: 5px;
-  width: available;
   height: 90px;
   bottom: 5px;
   background: ghostwhite;
@@ -67,8 +64,6 @@ main.mymain {
   top: 95px;
   right: 280px;
   left: 280px;
-  width: available;
-  height: available;
   bottom: 100px;
   background: white;
 }
@@ -97,4 +92,12 @@ em.ssilka {
 ul.myaside li {
   font-size: 20px;
   padding-top: 30px;
+}
+td.year {
+  text-align: center;
+  width: 300px;
+}
+td.expir {
+  text-align: left;
+  width: 1700px;
 }
